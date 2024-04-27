@@ -50,8 +50,8 @@ def send_email(subject, message, to_email):
         server.starttls()
 
         # Replace 'YOUR_EMAIL_USERNAME' and 'YOUR_EMAIL_PASSWORD' with your actual email credentials
-        email_username = 'bdu.classroom@gmail.com'
-        email_password = 'yustzrrhlaatdbtr'
+        email_username = '1901030@iot.bdu.ac.bd'
+        email_password = ''
 
         server.login(email_username, email_password)
 
